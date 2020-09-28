@@ -1,0 +1,82 @@
+body{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    height: 100vh;
+}
+
+#up,  #points, #options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rock, .paper, .scissors {
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding:12px 100px;
+    width: 40%;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    outline:none;
+}
+.rock:active{
+    background-color: black;
+    color: white;
+}
+.paper:active{
+    background-color: black;
+    color: white;
+}
+.scissors:active{
+    background-color: black;
+    color: white;
+}
+
+.optionsP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.points{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3px;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 50%;
+    margin-right: 55%;
+    
+}
+
+#you{
+    padding-left: 50%;
+}
+
+.smallerTxt{
+    justify-content: left;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0;
+    
+}
